@@ -6,10 +6,10 @@ layout: default
 
 ## Certifications
 
-1. ![CompTIA Security+](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/CompTIA_logo.svg/512px-CompTIA_logo.svg.png) **CompTIA Security+**
-2. ![ISC2 CC](https://www.isc2.org/-/media/ISC2/Images/Certification-Badges/CC-Badge.ashx) **ISC2 Certified in Cybersecurity (CC)**
-3. ![Google Cybersecurity](https://img.icons8.com/color/48/000000/google-logo.png) **Google Cybersecurity Professional**
-4. ![Cisco CCNA](https://upload.wikimedia.org/wikipedia/commons/2/2f/Cisco_logo.svg) **Cisco Certified Network Associate (CCNA)**
+1. ![CompTIA Security+](./assets/images/comptia_security_plus.png){:width="48px"} **CompTIA Security+**
+2. ![ISC2 CC](./assets/images/cc.png){:width="48px"} **ISC2 Certified in Cybersecurity (CC)**
+3. ![Google Cybersecurity](https://img.icons8.com/color/48/000000/google-logo.png){:width="48px"} **Google Cybersecurity Professional**
+4. ![Cisco CCNA](./assets/images/ccna.jpg){:width="48px"} **Cisco Certified Network Associate (CCNA)**
 
 ## Skills
 
