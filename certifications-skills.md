@@ -9,12 +9,12 @@ layout: default
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
   <div style="text-align: center;">
-    <img src="./assets/images/comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: auto;">
+    <img src=".comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: auto;">
     <p><strong>CompTIA Security+</strong></p>
   </div>
   
   <div style="text-align: center;">
-    <img src="./assets/images/isc2_cc.png" alt="ISC2 Certified in Cybersecurity (CC)" style="width: 100px; height: auto;">
+    <img src=".isc2_cc.png" alt="ISC2 Certified in Cybersecurity (CC)" style="width: 100px; height: auto;">
     <p><strong>ISC2 Certified in Cybersecurity (CC)</strong></p>
   </div>
   
@@ -24,7 +24,7 @@ layout: default
   </div>
   
   <div style="text-align: center;">
-    <img src="./assets/images/cisco_ccna.png" alt="Cisco Certified Network Associate (CCNA)" style="width: 100px; height: auto;">
+    <img src=".cisco_ccna.png" alt="Cisco Certified Network Associate (CCNA)" style="width: 100px; height: auto;">
     <p><strong>Cisco CCNA</strong></p>
   </div>
 
