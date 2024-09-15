@@ -16,4 +16,4 @@ You can explore my **projects, education, work experience, and certifications** 
 - [Education & Work Experience](./education-work.md)
 - [Certifications & Skills](./certifications-skills.md)
 
-Feel free to reach out to me via [LinkedIn](#) or [email](mailto:seiferboado101@gmail.com).
+Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/seifer-rija-boado-0a196a238/) or [email](mailto:seiferboado101@gmail.com).
