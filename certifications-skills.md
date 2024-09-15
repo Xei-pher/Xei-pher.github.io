@@ -9,7 +9,7 @@ layout: default
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
   <div style="text-align: center;">
-    <img src="./comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: auto;">
+    <img src="./comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: 110px;">
     <p><strong>CompTIA Security+</strong></p>
   </div>
   
