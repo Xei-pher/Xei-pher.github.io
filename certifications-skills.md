@@ -9,22 +9,22 @@ layout: default
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
   <div style="text-align: center;">
-    <img src="./comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: 110px;">
+    <img src="./comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: auto;">
     <p><strong>CompTIA Security+</strong></p>
   </div>
   
   <div style="text-align: center;">
-    <img src="./cc.png" alt="ISC2 Certified in Cybersecurity (CC)" style="width: 100px; height: auto;">
+    <img src="./cc.png" alt="ISC2 Certified in Cybersecurity (CC)" style="width: 95px; height: auto;">
     <p><strong>ISC2 Certified in Cybersecurity (CC)</strong></p>
   </div>
   
   <div style="text-align: center;">
-    <img src="https://img.icons8.com/color/100/000000/google-logo.png" alt="Google Cybersecurity Professional" style="width: 100px; height: auto;">
+    <img src="https://img.icons8.com/color/100/000000/google-logo.png" alt="Google Cybersecurity Professional" style="width: 95px; height: auto;">
     <p><strong>Google Cybersecurity Professional</strong></p>
   </div>
   
   <div style="text-align: center;">
-    <img src="./ccna.jpg" alt="Cisco Certified Network Associate (CCNA)" style="width: 100px; height: auto;">
+    <img src="./ccna.jpg" alt="Cisco Certified Network Associate (CCNA)" style="width: 95px; height: auto;">
     <p><strong>Cisco CCNA</strong></p>
   </div>
 
