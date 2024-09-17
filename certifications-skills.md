@@ -36,13 +36,13 @@ layout: default
     <li><strong>Blueteaming Tools:</strong> Wireshark, Nmap, OSSEC, Microsoft 365 Defender/Purview</li>
     <li><strong>Programming:</strong> Python, JavaScript, Bash, HTML/CSS</li>
     <li><strong>Security Frameworks:</strong> NIST, ISO 27001/27002, CIS, MITRE ATT&CK</li>
-    <li><strong>Familiarity with GDPR, HIPAA, and PCI DSS Compliance</li>
-    <li><strong>Familiarity with Containerization and Virtualization Technology</li>
+    <li><strong>Familiarity with GDPR, HIPAA, and PCI DSS Compliance
+    <li><strong>Familiarity with Containerization and Virtualization Technology
     <li><strong>Cloud Security:</strong> Microsoft Azure (currently taking AZ-900), GCP</li>
-  </ul>
+  
 
-  <a href="./index.md">Back to About Me</a>
-</div>
+[Back to About Me](./index.md)
+
 
 <style>
   /* Fade-in animation */
