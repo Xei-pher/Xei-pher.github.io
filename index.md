@@ -18,10 +18,13 @@ layout: default
 </div>
 
 <!-- New section for additional links -->
-<div id="additional-links">
-  <a href="./projects.md" class="link-button">Projects</a>
-  <a href="./education-work.md" class="link-button">Education & Work Experience</a>
-  <a href="./certifications-skills.md" class="link-button">Certifications & Skills</a>
+<div id="quick-links">
+  <h2>Quick Links</h2>
+  <ul>
+    <li><a href="./projects.md" class="link-item">Projects</a></li>
+    <li><a href="./education-work.md" class="link-item">Education & Work Experience</a></li>
+    <li><a href="./certifications-skills.md" class="link-item">Certifications & Skills</a></li>
+  </ul>
 </div>
 
 <script>
@@ -137,26 +140,35 @@ layout: default
     color: darkgreen; /* Darken the icon color on hover */
   }
 
-  /* Additional links styling */
-  #additional-links {
+  /* Quick Links styling */
+  #quick-links {
     margin-top: 20px;
   }
 
-  .link-button {
-    display: inline-block;
-    margin-right: 15px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-    background-color: green; /* Green background for buttons */
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
+  #quick-links h2 {
+    font-size: 1.5rem;
+    color: green;
+    margin-bottom: 10px;
   }
 
-  .link-button:hover {
-    background-color: darkgreen; /* Darker green on hover */
+  #quick-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #quick-links li {
+    margin-bottom: 10px;
+  }
+
+  .link-item {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+  }
+
+  .link-item:hover {
+    text-decoration: underline;
+    color: darkgreen;
   }
 </style>
 
