@@ -18,12 +18,11 @@ layout: default
 </div>
 
 <!-- New section for additional links -->
-<div id="quick-links">
   # Quick Links
   - [Projects](./projects.md)
   - [Education & Work Experience](./education-work.md)
   - [Certifications & Skills](./certifications-skills.md)
-</div>
+
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
