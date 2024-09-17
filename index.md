@@ -29,7 +29,7 @@ layout: default
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
-    const typingSpeed = 20; // Faster typing speed
+    const typingSpeed = 10; // Faster typing speed
     const typedTextElement = document.getElementById("typed-text");
     const cursorElement = document.getElementById("cursor");
 
