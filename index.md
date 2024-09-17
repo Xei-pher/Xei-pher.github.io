@@ -20,74 +20,34 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const text = [
-      "I'm <strong>Seifer Rija Boado</strong>, a BS in Information Technology graduate from De La Salle University, specializing in <strong>Cybersecurity</strong>.",
-      "With <strong>three internships in the field</strong>, I'm passionate about securing systems and exploring emerging threats in cybersecurity.",
+      "I'm Seifer Rija Boado, a BS in Information Technology graduate from De La Salle University, specializing in Cybersecurity.",
+      "With three internships in the field, I'm passionate about securing systems and exploring emerging threats in cybersecurity.",
       "I'm looking to enter the field full-time and contribute to a secure digital future.",
-      "You can explore my <strong>projects, education, work experience, and certifications</strong> below:",
+      "You can explore my projects, education, work experience, and certifications below:",
       'Feel free to reach out to me via <a href="https://www.linkedin.com/in/seifer-rija-boado-0a196a238/" target="_blank">LinkedIn</a> or <a href="mailto:seiferboado101@gmail.com">email</a>.'
+    ];
+
+    const boldGreenParts = [
+      [4, 23], // "Seifer Rija Boado"
+      [69, 83], // "Cybersecurity"
+      [5, 30], // "three internships in the field"
+      [49, 83], // "projects, education, work experience, and certifications"
     ];
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
-    const typingSpeed = 10; // Faster typing speed
+    const typingSpeed = 20; // Adjust typing speed
     const typedTextElement = document.getElementById("typed-text");
     const cursorElement = document.getElementById("cursor");
 
     function type() {
       if (currentCharIndex < text[currentTextIndex].length) {
-        typedTextElement.innerHTML += text[currentTextIndex].charAt(currentCharIndex);
-        currentCharIndex++;
-        setTimeout(type, typingSpeed);
-      } else if (currentTextIndex < text.length - 1) {
-        currentTextIndex++;
-        currentCharIndex = 0;
-        typedTextElement.innerHTML += "<br><br>";
-        setTimeout(type, typingSpeed);
-      } else {
-        cursorElement.style.display = "none"; // Hide cursor when done typing
-      }
-    }
+        let charToAdd = text[currentTextIndex].charAt(currentCharIndex);
 
-    type();
-  });
-</script>
-
-<style>
-  /* Text styling */
-  #typed-text {
-    font-family: 'Courier', monospace;
-    font-size: 1.2rem;
-    white-space: pre-wrap;
-  }
-
-  /* Blinking cursor */
-  .blink {
-    font-family: 'Courier', monospace;
-    font-size: 1.2rem;
-    display: inline;
-    animation: blink 0.7s step-start infinite;
-  }
-
-  @keyframes blink {
-    50% { opacity: 0; }
-  }
-
-  /* Contact icon styling */
-  #contact-links {
-    margin-top: 20px;
-  }
-
-  .contact-icon {
-    margin-right: 15px;
-    text-decoration: none;
-    color: green; /* Green color for icons */
-    font-size: 2rem; /* Size of the icons */
-  }
-
-  .contact-icon:hover {
-    color: darkgreen; /* Darken the icon color on hover */
-  }
-</style>
-
-<!-- Include Font Awesome for Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        // Check if the current character is within a range to be bold and green
+        let inBoldRange = false;
+        boldGreenParts.forEach(([start, end]) => {
+          if (currentTextIndex === boldGreenParts.indexOf([start, end])) {
+            if (currentCharIndex >= start && currentCharIndex <= end) {
+              charToAdd = "<span class='bold-green'>" + charToAdd;
+              // Closing 'bold-green'
