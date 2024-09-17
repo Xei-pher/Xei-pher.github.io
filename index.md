@@ -19,12 +19,10 @@ layout: default
 
 <!-- New section for additional links -->
 <div id="quick-links">
-  <h2>Quick Links</h2>
-  <ul>
-    <li><a href="./projects.md" class="link-item">Projects</a></li>
-    <li><a href="./education-work.md" class="link-item">Education & Work Experience</a></li>
-    <li><a href="./certifications-skills.md" class="link-item">Certifications & Skills</a></li>
-  </ul>
+  # Quick Links
+  - [Projects](./projects.md)
+  - [Education & Work Experience](./education-work.md)
+  - [Certifications & Skills](./certifications-skills.md)
 </div>
 
 <script>
