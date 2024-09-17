@@ -4,16 +4,58 @@ layout: default
 
 # About Me
 
-I'm **Seifer Rija Boado**, a BS in Information Technology graduate from De La Salle University, specializing in **Cybersecurity**. 
+<div id="typed-text"></div>
 
-With **three internships in the field**, I'm passionate about securing systems and exploring emerging threats in cybersecurity. I'm looking to enter the field full-time and contribute to a secure digital future.
+<p id="cursor" class="blink">|</p>
 
-You can explore my **projects, education, work experience, and certifications** below:
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const text = [
+      "I'm **Seifer Rija Boado**, a BS in Information Technology graduate from De La Salle University, specializing in **Cybersecurity**.",
+      "With **three internships in the field**, I'm passionate about securing systems and exploring emerging threats in cybersecurity.",
+      "I'm looking to enter the field full-time and contribute to a secure digital future.",
+      "You can explore my **projects, education, work experience, and certifications** below:",
+      "Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/seifer-rija-boado-0a196a238/) or [email](mailto:seiferboado101@gmail.com)."
+    ];
 
-## Quick Links
+    let currentTextIndex = 0;
+    let currentCharIndex = 0;
+    const typingSpeed = 50;
+    const typedTextElement = document.getElementById("typed-text");
+    const cursorElement = document.getElementById("cursor");
 
-- [Projects](./projects.md)
-- [Education & Work Experience](./education-work.md)
-- [Certifications & Skills](./certifications-skills.md)
+    function type() {
+      if (currentCharIndex < text[currentTextIndex].length) {
+        typedTextElement.innerHTML += text[currentTextIndex].charAt(currentCharIndex);
+        currentCharIndex++;
+        setTimeout(type, typingSpeed);
+      } else if (currentTextIndex < text.length - 1) {
+        currentTextIndex++;
+        currentCharIndex = 0;
+        typedTextElement.innerHTML += "<br><br>";
+        setTimeout(type, typingSpeed);
+      }
+    }
 
-Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/seifer-rija-boado-0a196a238/) or [email](mailto:seiferboado101@gmail.com).
+    type();
+  });
+</script>
+
+<style>
+  #typed-text {
+    font-family: 'Courier', monospace;
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+  }
+
+  .blink {
+    font-family: 'Courier', monospace;
+    font-size: 1.2rem;
+    display: inline;
+    animation: blink 0.7s step-start infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+</style>
