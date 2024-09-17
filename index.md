@@ -18,7 +18,7 @@ layout: default
 </div>
 
 <!-- New section for additional links -->
-  ## Quick Links
+# Quick Links
   - [Projects](./projects.md)
   - [Education & Work Experience](./education-work.md)
   - [Certifications & Skills](./certifications-skills.md)
@@ -36,7 +36,7 @@ layout: default
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
-    const typingSpeed = 5; // Fast typing speed
+    const typingSpeed = 7; // Fast typing speed
     const typedTextElement = document.getElementById("typed-text");
     const cursorElement = document.getElementById("cursor");
 
