@@ -36,7 +36,7 @@ layout: default
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
-    const typingSpeed = 20; // Fast typing speed
+    const typingSpeed = 50; // Fast typing speed
     const typedTextElement = document.getElementById("typed-text");
     const cursorElement = document.getElementById("cursor");
 
