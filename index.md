@@ -24,14 +24,7 @@ layout: default
       "With three internships in the field, I'm passionate about securing systems and exploring emerging threats in cybersecurity.",
       "I'm looking to enter the field full-time and contribute to a secure digital future.",
       "You can explore my projects, education, work experience, and certifications below:",
-      'Feel free to reach out to me via <a href="https://www.linkedin.com/in/seifer-rija-boado-0a196a238/" target="_blank">LinkedIn</a> or <a href="mailto:seiferboado101@gmail.com">email</a>.'
-    ];
-
-    const boldGreenParts = [
-      [4, 22], // "Seifer Rija Boado"
-      [68, 82], // "Cybersecurity"
-      [5, 29], // "three internships in the field"
-      [47, 81], // "projects, education, work experience, and certifications"
+      'Feel free to reach out to me via LinkedIn or email.'
     ];
 
     let currentTextIndex = 0;
@@ -60,7 +53,6 @@ layout: default
     }
 
     function styleText(index) {
-      const line = text[index];
       const typedTextHTML = typedTextElement.innerHTML;
 
       if (index === 0) {
@@ -80,6 +72,14 @@ layout: default
         typedTextElement.innerHTML = typedTextHTML.replace(
           "projects, education, work experience, and certifications",
           "<span class='bold-green'>projects, education, work experience, and certifications</span>"
+        );
+      } else if (index === 4) {
+        typedTextElement.innerHTML = typedTextHTML.replace(
+          "LinkedIn",
+          "<span class='bold-green'>LinkedIn</span>"
+        ).replace(
+          "email",
+          "<span class='bold-green'>email</span>"
         );
       }
     }
