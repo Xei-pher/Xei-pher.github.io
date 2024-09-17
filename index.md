@@ -17,6 +17,13 @@ layout: default
   </a>
 </div>
 
+<!-- New section for additional links -->
+<div id="additional-links">
+  <a href="./projects.md" class="link-button">Projects</a>
+  <a href="./education-work.md" class="link-button">Education & Work Experience</a>
+  <a href="./certifications-skills.md" class="link-button">Certifications & Skills</a>
+</div>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const text = [
@@ -128,6 +135,28 @@ layout: default
 
   .contact-icon:hover {
     color: darkgreen; /* Darken the icon color on hover */
+  }
+
+  /* Additional links styling */
+  #additional-links {
+    margin-top: 20px;
+  }
+
+  .link-button {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: green; /* Green background for buttons */
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .link-button:hover {
+    background-color: darkgreen; /* Darker green on hover */
   }
 </style>
 
