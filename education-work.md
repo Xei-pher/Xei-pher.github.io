@@ -37,7 +37,7 @@ _De La Salle University (DLSU)_
 ### Freelance Web Developer  
 **Flour Apprentice**  
 **Feb 2021 - May 2023**  
-- Solely responsible for website **creation, design, support, and maintenance**, delivering **5 client websites** with 100% client satisfaction.  
+- Solely responsible for website **creation, design, support, and maintenance**, delivering **2 client websites** with 100% client satisfaction.  
 - Managed hosting services and reduced operational costs by **45%** through optimization and migration to **Hostinger**.  
 - Designed and developed websites using **SquareSpace** and **WordPress**, ensuring seamless migration with no downtime.
 
