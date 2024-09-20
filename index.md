@@ -16,7 +16,7 @@ layout: default
     <i class="fas fa-envelope"></i>
   </a>
   <!-- Download CV Button -->
-  <a href="./Seifer_Rija_Boado_CV.pdf" download class="cv-button">
+  <a href="./Boado_CV_Security.pdf" download class="cv-button">
     <i class="fas fa-file-download"></i> Download CV
   </a>
 </div>
