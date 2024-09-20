@@ -15,6 +15,10 @@ layout: default
   <a href="mailto:seiferboado101@gmail.com" class="contact-icon">
     <i class="fas fa-envelope"></i>
   </a>
+  <!-- Download CV Button -->
+  <a href="./Seifer_Rija_Boado_CV.pdf" download class="cv-button">
+    <i class="fas fa-file-download"></i> Download CV
+  </a>
 </div>
 
 <!-- New section for additional links -->
@@ -22,7 +26,6 @@ layout: default
   - [Projects](./projects.md)
   - [Education & Work Experience](./education-work.md)
   - [Certifications & Skills](./certifications-skills.md)
-
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -135,6 +138,26 @@ layout: default
 
   .contact-icon:hover {
     color: darkgreen; /* Darken the icon color on hover */
+  }
+
+  /* CV button styling */
+  .cv-button {
+    margin-left: 15px;
+    text-decoration: none;
+    color: green;
+    font-size: 1.5rem;
+    border: 2px solid green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+
+  .cv-button:hover {
+    background-color: green;
+    color: white;
+    border-color: darkgreen;
   }
 
   /* Quick Links styling */
