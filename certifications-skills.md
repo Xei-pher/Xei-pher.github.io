@@ -28,6 +28,11 @@ layout: default
     <p><strong>Cisco CCNA</strong></p>
   </div>
 
+  <div style="text-align: center;">
+    <img src="./cnsp.png" alt="Cisco Certified Network Associate (CCNA)" style="width: 95px; height: auto;">
+    <p><strong>Certified Network Security Practitioner (CNSP)</strong></p>
+  </div>
+
 </div>
 
 ## Skills
