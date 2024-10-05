@@ -24,8 +24,8 @@ layout: default
   </div>
   
   <div style="text-align: center;">
-    <img src="./ccna.jpg" alt="Cisco Certified Network Associate (CCNA)" style="width: 95px; height: auto;">
-    <p><strong>Cisco CCNA</strong></p>
+    <img src="./ccna_large.jpg" alt="Cisco Certified Network Associate (CCNA)" style="width: 95px; height: auto;">
+    <p><strong>Cisco Certified Network Associate (CCNA)</strong></p>
   </div>
 
   <div style="text-align: center;">
