@@ -15,6 +15,9 @@ layout: default
   <a href="mailto:seiferboado101@gmail.com" class="contact-icon">
     <i class="fas fa-envelope"></i>
   </a>
+  <a href="https://medium.com/@seiferboado101" target="_blank" class="contact-icon">
+    <i class="fab fa-medium"></i>
+  </a>
   <!-- Download CV Button -->
   <a href="./Boado_CV_Security.pdf" download class="cv-button">
     <i class="fas fa-file-download"></i> Download CV
@@ -34,12 +37,12 @@ layout: default
       "With three internships in the field, I'm passionate about securing systems and exploring emerging threats in cybersecurity.",
       "I'm looking to enter the field full-time and contribute to a secure digital future.",
       "You can explore my projects, education, work experience, and certifications below:",
-      'Feel free to reach out to me via LinkedIn or email.'
+      'Feel free to reach out to me via LinkedIn, Medium, or email.'
     ];
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
-    const typingSpeed = 7; // Fast typing speed
+    const typingSpeed = 4; // Fast typing speed
     const typedTextElement = document.getElementById("typed-text");
     const cursorElement = document.getElementById("cursor");
 
@@ -87,6 +90,9 @@ layout: default
         typedTextElement.innerHTML = typedTextHTML.replace(
           "LinkedIn",
           "<span class='bold-green'>LinkedIn</span>"
+        ).replace(
+          "Medium",
+          "<span class='bold-green'>Medium</span>"
         ).replace(
           "email",
           "<span class='bold-green'>email</span>"
