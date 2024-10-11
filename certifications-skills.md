@@ -33,6 +33,11 @@ layout: default
     <p><strong>Certified Network Security Practitioner (CNSP)</strong></p>
   </div>
 
+  <div style="text-align: center;">
+  <img src="./az900.png" alt="Cisco Certified Network Associate (CCNA)" style="width: 95px; height: auto;">
+  <p><strong>Microsoft Certified: Azure Fundamentals (AZ-900)</strong></p>
+  </div>
+
 </div>
 
 ## Skills
