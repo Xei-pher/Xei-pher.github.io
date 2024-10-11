@@ -48,6 +48,6 @@ layout: default
 - **Security Frameworks:** NIST, ISO 27001/27002, CIS, MITRE ATT&CK
 - **Familiarity with GDPR, HIPAA, and PCI DSS Compliance**
 - **Familiarity with Containerization and Virtualization Technology**
-- **Cloud Security:** Microsoft Azure (currently taking AZ-900), GCP
+- **Cloud Security:** Microsoft Azure
 
 [Back to About Me](./index.md)
