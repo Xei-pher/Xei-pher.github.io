@@ -19,8 +19,8 @@ layout: default
   </div>
   
   <div style="text-align: center;">
-    <img src="./btl.png" alt="Certified Blue Team Level 1 (BTL1)" style="width: 95px; height: auto;">
-    <p><strong>Certified Blue Team Level 1 (BTL1)l</strong></p>
+    <img src="./btl1.png" alt="Certified Blue Team Level 1 (BTL1)" style="width: 95px; height: auto;">
+    <p><strong>Certified Blue Team Level 1 (BTL1)</strong></p>
   </div>
   
   <div style="text-align: center;">
@@ -38,7 +38,7 @@ layout: default
   <p><strong>Microsoft Certified: Azure Fundamentals (AZ-900)</strong></p>
   </div>
 
-  div style="text-align: center;">
+  <div style="text-align: center;">
     <img src="https://img.icons8.com/color/100/000000/google-logo.png" alt="Google Cybersecurity Professional" style="width: 95px; height: auto;">
     <p><strong>Google Cybersecurity Professional</strong></p>
   </div>
