@@ -13,11 +13,11 @@ layout: default
     <p><strong>CompTIA Security+</strong></p>
   </div>
   
-  <div style="text-align: center;">
-    <img src="./cc.png" alt="ISC2 Certified in Cybersecurity (CC)" style="width: 95px; height: auto;">
-    <p><strong>ISC2 Certified in Cybersecurity (CC)</strong></p>
+   <div style="text-align: center;">
+    <img src="./ejpt.png" alt="INE Security Certified Junior Penetration Tester (eJPT)" style="width: 95px; height: auto;">
+    <p><strong>INE Security Certified Junior Penetration Tester (eJPT)</strong></p>
   </div>
-  
+
   <div style="text-align: center;">
     <img src="./btl1.png" alt="Certified Blue Team Level 1 (BTL1)" style="width: 95px; height: auto;">
     <p><strong>Certified Blue Team Level 1 (BTL1)</strong></p>
@@ -26,6 +26,11 @@ layout: default
   <div style="text-align: center;">
     <img src="./ccna_large.jpg" alt="Cisco Certified Network Associate (CCNA)" style="width: 95px; height: auto;">
     <p><strong>Cisco Certified Network Associate (CCNA)</strong></p>
+  </div>
+
+ <div style="text-align: center;">
+    <img src="./cc.png" alt="ISC2 Certified in Cybersecurity (CC)" style="width: 95px; height: auto;">
+    <p><strong>ISC2 Certified in Cybersecurity (CC)</strong></p>
   </div>
 
   <div style="text-align: center;">
