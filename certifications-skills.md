@@ -52,7 +52,8 @@ layout: default
 ## Skills
 
 - **Redteaming Tools:** Burp Suite, Metasploit, Malware Development (for research purposes)
-- **Blueteaming Tools:** Wireshark, Nmap, OSSEC, Microsoft 365 Defender/Purview
+- **Blueteaming Tools:** Wireshark, Nmap, OSSEC, Splunk, ELK, Microsoft 365 Defender/Purview
+- **Familiarity with EDR, IAM, XDR, SIEM, DLP, NAC, and MDM tools and fundamentals**
 - **Programming:** Python, JavaScript, Bash, HTML/CSS
 - **Security Frameworks:** NIST, ISO 27001/27002, CIS, MITRE ATT&CK
 - **Familiarity with GDPR, HIPAA, and PCI DSS Compliance**
