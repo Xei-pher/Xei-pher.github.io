@@ -43,7 +43,7 @@ layout: default
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
-    const typingSpeed = 4;
+    const typingSpeed = 2;
     const typedTextElement = document.getElementById("typed-text");
     const cursorElement = document.getElementById("cursor");
 
