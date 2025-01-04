@@ -36,7 +36,7 @@ layout: default
       "I'm Seifer Rija Boado, an Information Security Engineer currently working on Threat and Vulnerability Management at Finastra.",
       "I hold certifications like CySA+, Security+, CCNA, eJPT, AZ-900, CNSP, and BTL1, showcasing my commitment to cybersecurity excellence.",
       "I have hands-on experience in implementing security controls, leveraging tools like Microsoft Defender, Purview, Intune, XDR, DLP, Compliance, IDS/IPS, Firewall, NAC, and SIEM solutions.",
-      "I've enhanced security compliance for ISO 27001/27002 and resolved real-world incidents through forensics and vulnerability management.",
+      "I've enhanced security compliance for ISO 27001/27002 and resolved real-world security incidents through following Incident Response Activities, Digital Forensics and Vulnerability Management.",
       "I've also recently graduated from De La Salle University, with a Bachelor's Degree in Information Technology",
       "Feel free to explore my projects, certifications, and professional journey below or connect with me via LinkedIn, Medium, or email."
     ];
