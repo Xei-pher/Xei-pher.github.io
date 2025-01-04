@@ -18,14 +18,22 @@ _De La Salle University (DLSU)_
 
 ## Work Experience
 
-### Cybersecurity Intern  
+### Threat & Vulnerability Management Intern (Technical Solutions)
+**Finastra**  
+**Dec 2024 - Present**  
+- Resolved **400+ vulnerabilities across cloud environments**, achieving a **40% reduction in overall vulnerabilities** and ensuring compliance with industry standards.
+- **Automated vulnerability management, remediation, and scanning processes**, reducing manual effort by and improving remediation timelines.
+
+### Information Security Engineer Intern  
 **Profiles Asia Pacific**  
 **Aug 2024 - Jan 2025**  
-- Applied hands-on experience in enhancing security and compliance through the effective use of Microsoft 365 and its suite of tools. Utilizing and configuring the organization’s EDR, SIEM, DLP, MDM, and IAM Solutions.
+- Applied hands-on experience in enhancing security and compliance through the effective use of Microsoft Security Suite. Utilizing and configuring the organization’s EDR, SIEM, DLP, MDM, and IAM Solutions.
 - Assisted in assuring **ISO 27001/27002 compliance**, improving compliance scores by **85%**.  
 - Increased overall **security score by 70%** by implementing technical, administrative, and access controls.  
+- Spearheaded Security Awareness Campaigns through Phishing Simulation and Employee Awareness Training
 - Implemented and monitored security measures in **Microsoft Defender, Purview, and Intune**, resulting in **a 20% improvement in MTTR (Mean Time To Respond)**.  
 - Participated in **GRC (Governance, Risk, and Compliance)** activities, strengthening risk management processes.  
+- Made significant contributions to **Threat Intelligence** activities.
 - Conducted investigations in real-world incidents: performed log analysis and **data forensics**, leading to **4 successful resolutions** of security incidents.  
 
 ### Junior DevOps Engineer Intern/IT Intern  
