@@ -28,12 +28,21 @@ Configured virtual networking, assigned static IPs, and fine-tuned Linux systems
 
 ---
 
-### 3. **DVWA Hacking**
+### 3. **VTRecon**
 
-Explored various vulnerabilities using the **Damn Vulnerable Web Application (DVWA)**, exploiting SQL Injection, XSS, and CSRF attacks.  
-- [Read the full write-up on Google Docs](https://docs.google.com/document/d/1spQaani_Yim1mr6mZuLNBMtGrXUjybJybZJnKVvWEAg/edit?usp=sharing)
+**VTRecon: A Command-Line Threat Analysis Tool**
 
----
+VTRecon is a powerful and versatile command-line tool designed for cybersecurity professionals and enthusiasts. It enables users to analyze file hashes, IP addresses, and URLs using the VirusTotal API, perform WHOIS lookups for domains, and gather essential threat intelligence.
+
+#### Features:
+- File hash scanning using VirusTotal
+- IP address threat analysis
+- URL scanning and analysis
+- WHOIS lookup for domain details
+- Simple and user-friendly interface
+
+- [Explore the project on GitHub](https://github.com/Xei-pher/VTRecon)
+
 
 ### 4. **Client Website Monitoring Service with Grafana and Prometheus**
 
@@ -48,7 +57,7 @@ Completed ethical hacking challenges with **OWASP Juice Shop**, identifying secu
 
 ---
 
-### 6. **Wireshark Malware Analysis of OskiStealer**
+### 6. **Wireshark Maliciousu Network Traffic Analysis of OskiStealer**
 
 Analyzed network traffic to identify **indicators of compromise (IoCs)** for the **OskiStealer** malware. Using **Wireshark**, I examined HTTP traffic and leveraged **VirusTotal** and **MalwareBazaar** to uncover the malware’s data exfiltration tactics and evasion methods.  
 - [Read the full article on Medium](https://medium.com/@seiferboado101/from-network-packets-to-malware-insights-analyzing-oskistealer-through-forensics-7f7a97191a08)
