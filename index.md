@@ -33,16 +33,17 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const text = [
-      "I'm Seifer Rija Boado, a BS in Information Technology graduate from De La Salle University, specializing in Cybersecurity.",
-      "With three internships in the field, I'm passionate about securing systems and exploring emerging threats in cybersecurity.",
-      "I'm looking to enter the field full-time and contribute to a secure digital future.",
-      "You can explore my projects, education, work experience, and certifications below:",
-      'Feel free to reach out to me via LinkedIn, Medium, or email.'
+      "I'm Seifer Rija Boado, an Information Security Engineer currently working on Threat and Vulnerability Management at Finastra.",
+      "I hold certifications like CySA+, Security+, CCNA, eJPT, AZ-900, CNSP, and BTL1, showcasing my commitment to cybersecurity excellence.",
+      "I have hands-on experience in implementing security controls, leveraging tools like Microsoft Defender, Purview, Intune, and SIEM solutions.",
+      "I've enhanced security compliance for ISO 27001/27002 and resolved real-world incidents through forensics and vulnerability management.",
+      "I've also recently graduated from De La Salle University, with a Bachelor's Degree in Information Technology",
+      "Feel free to explore my projects, certifications, and professional journey below or connect with me via LinkedIn, Medium, or email."
     ];
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
-    const typingSpeed = 4; // Fast typing speed
+    const typingSpeed = 4;
     const typedTextElement = document.getElementById("typed-text");
     const cursorElement = document.getElementById("cursor");
 
@@ -52,16 +53,14 @@ layout: default
         currentCharIndex++;
         setTimeout(type, typingSpeed);
       } else if (currentTextIndex < text.length - 1) {
-        // Apply bold and green styles after typing the current line
         styleText(currentTextIndex);
-        
         currentTextIndex++;
         currentCharIndex = 0;
         typedTextElement.innerHTML += "<br><br>";
         setTimeout(type, typingSpeed);
       } else {
-        styleText(currentTextIndex); // Style the last line
-        cursorElement.style.display = "none"; // Hide cursor when done typing
+        styleText(currentTextIndex);
+        cursorElement.style.display = "none";
       }
     }
 
@@ -73,18 +72,18 @@ layout: default
           "Seifer Rija Boado",
           "<span class='bold-green'>Seifer Rija Boado</span>"
         ).replace(
-          "Cybersecurity",
-          "<span class='bold-green'>Cybersecurity</span>"
+          "Threat and Vulnerability Management",
+          "<span class='bold-green'>Threat and Vulnerability Management</span>"
         );
       } else if (index === 1) {
         typedTextElement.innerHTML = typedTextHTML.replace(
-          "three internships in the field",
-          "<span class='bold-green'>three internships in the field</span>"
+          "CySA+, Security+, CCNA, eJPT, AZ-900, CNSP, and BTL1",
+          "<span class='bold-green'>CySA+, Security+, CCNA, eJPT, AZ-900, CNSP, and BTL1</span>"
         );
       } else if (index === 3) {
         typedTextElement.innerHTML = typedTextHTML.replace(
-          "projects, education, work experience, and certifications",
-          "<span class='bold-green'>projects, education, work experience, and certifications</span>"
+          "ISO 27001/27002",
+          "<span class='bold-green'>ISO 27001/27002</span>"
         );
       } else if (index === 4) {
         typedTextElement.innerHTML = typedTextHTML.replace(
@@ -100,7 +99,7 @@ layout: default
       }
     }
 
-    type(); // Start typing
+    type();
   });
 </script>
 
@@ -138,12 +137,12 @@ layout: default
   .contact-icon {
     margin-right: 15px;
     text-decoration: none;
-    color: green; /* Green color for icons */
-    font-size: 2rem; /* Size of the icons */
+    color: green;
+    font-size: 2rem;
   }
 
   .contact-icon:hover {
-    color: darkgreen; /* Darken the icon color on hover */
+    color: darkgreen;
   }
 
   /* CV button styling */
