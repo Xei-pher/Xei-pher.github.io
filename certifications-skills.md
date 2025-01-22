@@ -11,6 +11,11 @@ layout: default
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 30px; justify-content: center; align-items: center; text-align: center;">
 
   <div>
+    <img src="./cysa.png" alt="CompTIA Security+" style="width: 100px; height: auto; margin-bottom: 10px;">
+    <p><strong>CompTIA CySA+</strong></p>
+  </div>
+  
+  <div>
     <img src="./comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: auto; margin-bottom: 10px;">
     <p><strong>CompTIA Security+</strong></p>
   </div>
