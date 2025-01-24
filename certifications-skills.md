@@ -19,6 +19,11 @@ layout: default
     <img src="./comptia_security_plus.png" alt="CompTIA Security+" style="width: 100px; height: auto; margin-bottom: 10px;">
     <p><strong>CompTIA Security+</strong></p>
   </div>
+
+  <div>
+    <img src="./csap.png" alt="CompTIA Security Analytics Professional (CSAP)" style="width: 100px; height: auto; margin-bottom: 10px;">
+    <p><strong>CompTIA Security+</strong></p>
+  </div>
   
   <div>
     <img src="./ejpt.png" alt="INE Security Certified Junior Penetration Tester (eJPT)" style="width: 100px; height: auto; margin-bottom: 10px;">
