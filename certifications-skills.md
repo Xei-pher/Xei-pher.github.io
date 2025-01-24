@@ -12,7 +12,7 @@ layout: default
 
   <div>
     <img src="./cysa.png" alt="CompTIA Security+" style="width: 100px; height: auto; margin-bottom: 10px;">
-    <p><strong>CompTIA CySA+</strong></p>
+    <p><strong>CompTIA Cybersecurity Analyst+ (CySA+)</strong></p>
   </div>
   
   <div>
@@ -22,7 +22,7 @@ layout: default
 
   <div>
     <img src="./csap.png" alt="CompTIA Security Analytics Professional (CSAP)" style="width: 100px; height: auto; margin-bottom: 10px;">
-    <p><strong>CompTIA Security+</strong></p>
+    <p><strong>CompTIA Security Analytics Professional (CSAP)</strong></p>
   </div>
   
   <div>
@@ -38,6 +38,11 @@ layout: default
   <div>
     <img src="./ccna_large.jpg" alt="Cisco Certified Network Associate (CCNA)" style="width: 100px; height: auto; margin-bottom: 10px;">
     <p><strong>Cisco Certified Network Associate (CCNA)</strong></p>
+  </div>
+
+ <div>
+    <img src="./icca.png" alt="INE Certified Cloud Associate (ICCA)" style="width: 100px; height: auto; margin-bottom: 10px;">
+    <p><strong>INE Certified Cloud Associate (ICCA)</strong></p>
   </div>
 
   <div>
