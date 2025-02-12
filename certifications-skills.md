@@ -36,6 +36,12 @@ layout: default
   </div>
 
   <div>
+    <img src="./pjpt.png" alt="TCM Security Certified Practical Junior Penetration Tester" style="width: 100px; height: auto; margin-bottom: 10px;">
+    <p><strong>Certified Practical Junior Penetration Tester</strong></p>
+  </div>
+
+
+  <div>
     <img src="./ccna_large.jpg" alt="Cisco Certified Network Associate (CCNA)" style="width: 100px; height: auto; margin-bottom: 10px;">
     <p><strong>Cisco Certified Network Associate (CCNA)</strong></p>
   </div>
