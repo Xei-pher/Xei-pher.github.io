@@ -33,13 +33,14 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const text = [
-      "I'm Seifer Rija Boado, an Information Security Engineer currently working on Threat and Vulnerability Management at Finastra.",
-      "I hold certifications like CySA+, Security+, CCNA, eJPT, AZ-900, CNSP, and BTL1, showcasing my commitment to cybersecurity excellence.",
-      "I have hands-on experience in implementing security controls, leveraging tools like Microsoft Defender, Purview, Intune, XDR, DLP, Compliance, IDS/IPS, Firewall, NAC, and SIEM solutions.",
-      "I've enhanced security compliance for ISO 27001/27002 and resolved real-world security incidents through following Incident Response Activities, Digital Forensics and Vulnerability Management.",
-      "I've also recently graduated from De La Salle University, with a Bachelor's Degree in Information Technology",
-      "Feel free to explore my projects, certifications, and professional journey below or connect with me via LinkedIn, Medium, or email."
+      "I'm Seifer Rija Boado, an Information Security Engineer currently working at Continent 8 Technologies. I specialize in Security Operations and Digital Forensics & Incident Response (DFIR).",
+      "I hold certifications such as CySA+, CDSA, eCIR, eCTHP, BTL1, eJPT, PJPT, PSAA, and more—validating my practical expertise across both blue and offensive security disciplines.",
+      "In my role, I actively monitor, investigate, and respond to threats in real-time, optimize SIEM and detection rules, conduct threat hunting, and perform root cause analysis on security incidents.",
+      "I have hands-on experience with Microsoft Defender, Intune, Purview, XDR, DLP, MDM, IDS/IPS, firewalls, NAC, and a range of SIEM solutions. I’ve helped boost ISO 27001/27002 compliance and improve incident response efficiency across diverse industries.",
+      "I earned my Bachelor's Degree in Information Technology from De La Salle University, where I consistently made the Dean’s List and graduated with Honorable Mention.",
+      "Feel free to explore my projects, certifications, and career journey below—or reach out via LinkedIn, Medium, or email. Always open to opportunities, collaboration, or just a good conversation about cybersecurity."
     ];
+
 
     let currentTextIndex = 0;
     let currentCharIndex = 0;
